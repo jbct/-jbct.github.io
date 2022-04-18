@@ -1,4 +1,3 @@
-# top level stuff you probably don't need to touch
 highlighter: rouge
 markdown: kramdown
 rdiscount:
@@ -11,14 +10,14 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://jbct.github.io/
+url: https://jbct.github.io/
 baseurl: /
 title: James Burke
 author: James Burke
 description: Personal blog and resume
 avatar: profile.png
 email: jburke@jbctech.com
-github: jbct/jbct.github.io # username
+github: jbct # username
 twitter: jbctech
 linkedin: jbctech
 #stackoverflow: username   #e.g: users/2735833/proton1h1
