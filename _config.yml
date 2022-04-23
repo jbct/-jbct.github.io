@@ -2,7 +2,7 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-permalink: /:title.html
+permalink: /blog/:year:/:month/:day/:title.html
 paginate: 5
 plugins: [jekyll-paginate]
 port: 3000
@@ -10,14 +10,14 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://jbct.github.io/
-baseurl: /
+url: https://www.jbctech.com/
+baseurl: '/'
 title: James Burke
 author: James Burke
 description: Personal blog and resume
 avatar: profile.png
 email: jburke@jbctech.com
-github: jbct # username
+github: jbct 
 twitter: jbctech
 linkedin: jbctech
 #stackoverflow: username   #e.g: users/2735833/proton1h1
