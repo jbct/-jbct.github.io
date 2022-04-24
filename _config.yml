@@ -9,7 +9,7 @@ port: 3000
 safe: true
 
 url: http://jbctech.com/
-baseurl: ""
+baseurl: /
 title: James Burke
 author: James Burke
 description: Personal blog and resume

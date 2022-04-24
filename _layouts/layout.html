@@ -75,6 +75,21 @@
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
-	  
+	
+ {% if page.common-js %}
+  {% for js in page.common-js %}
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    {% if js contains 'jquery' %}
+     <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="{{ js | prepend: site.baseurl | replace: "//", "/" }}"></scr' + 'ipt>');
+      	}
+      </script>
+    {% else %}
+	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+
+   {% endif %}
+  {% endfor %}
+{% endif %}
   </body>
 </html>
