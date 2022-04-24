@@ -8,8 +8,6 @@ plugins: [jekyll-paginate]
 port: 3000
 safe: true
 
-
-# edit here to achieve your personal greatness
 url: http://jbctech.com/
 baseurl: '/'
 title: James Burke
@@ -20,10 +18,7 @@ email: jburke@jbctech.com
 github: jbct 
 twitter: jbctech
 linkedin: jbctech
-#stackoverflow: username   #e.g: users/2735833/proton1h1
-#medium: username #e.g: NobelPeaceOslo
-#Comment out if you don't want disqus
-#disqus: username
+google_analytics: UA-226894553-1
 
 # needed for travis-ci build
 exclude: [vendor]
