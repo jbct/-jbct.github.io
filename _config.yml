@@ -2,14 +2,14 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-permalink: posts/:year/:month/:day/:title.html
+permalink: /posts/:year/:month/:day/:title.html
 paginate: 5
 plugins: [jekyll-paginate]
 port: 3000
 safe: true
 
 url: http://jbctech.com/
-baseurl: '/'
+baseurl: ""
 title: James Burke
 author: James Burke
 description: Personal blog and resume
