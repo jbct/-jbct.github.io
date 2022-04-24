@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+    <title type="text" xml:lang="en">James Burke</title>
+    <link type="application/atom+xml" rel="self" href="http://jbctech.com//atom.xml"/>
+  
+  <link href="http://jbctech.com//"/>
+  <id>http://jbctech.com//</id>
+  <updated>2022-04-24T02:43:19Z</updated>
+  <author>
+    <name>James Burke</name>
+    <email>jburke@jbctech.com</email>
+  </author>
+  <rights type="text">Copyright © 2022 James Burke. All rights reserved.</rights>
+  
+  <entry>
+  <title type="text">Moved to Github Pages</title>
+  <link rel="alternate" type="text/html" href="http://jbctech.com//posts/2022/04/17/moved-to-github-pages.html" />
+  <id>http://jbctech.com//posts/2022/04/17/moved-to-github-pages</id>
+  <published>2022-04-17T00:00:00Z</published>
+  <updated>2022-04-17T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>After almost two years on AWS Lightsail, I decided to move my personal site over to Github Pages. Lightsail served me well and enabled me to learn a bit more about new AWS service offerings that I had previously not worked with.</p>
+
+<p>In April 2020, I used what I was familiar with, keeping posts from 2005 on a Wordpress back-end. This just worked and was easy to maintain, but over time, I wanted something a bit more modern and something that isn’t targeted as much by spammers. I ended up migrating over to Ghost which was exactly what I was looking for. Over time though, I needed to upgrade the software and this is where the rub came in. The Lightsail instances use Bitnami which generally make setup and deployment simple, but the Ghost package is just not well polished. Often times, I ran into permissions issues and the commands that needed to be ran didn’t match what documentation stated. I ended up bricking my Ghost deployment several times. This just made it impossible to keep up-to-date.</p>
+
+<p>The reality is – I don’t blog very often and just want to keep a basic web presence, so I’m excited to move over to Github Pages. I should’ve done this years ago. :)</p>
+ ]]></content>
+</entry>
+
+
+
+</feed>
